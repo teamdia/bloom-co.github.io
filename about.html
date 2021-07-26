@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<title>my website</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Poppins:ital,wght@0,200;1,200;1,300;1,600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/5c8c953c02.js" crossorigin="anonymous"></script>
+ 
+ 
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navlinks">
+				<i class="fas fa-times"onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="service.html">SERVICE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>	
+			<i class="fas fa-bars"onclick="showmenu()"></i>
+		</nav>
+		<h1>About us</h1>
+
+	</section>	
+
+<!-----------------about us--------------->
+<section class="about">
+	<div class="row">
+		<div class="about-col">
+			<h1>REDEFINING THE ART OF WEDDING PLANNING!</h1>
+			<p>We plan truly memorable, exceptionally creative and uniquely beautiful weddings.<br>
+
+            At Marriage Colours, we are privileged to turn our passion into a business. Creating momentous moments and transforming dreams into reality has always been our forte. And with the inception of our Wedding Planning Services and Wedding Events Consultation Company, we have extended our repertoire to include one of the most beautiful events in a couple’s life — their wedding.</p>
+            <a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+		</div>
+		<div class="about-col">
+			<img src="images/about.png">
+		</div>
+	</div>
+	
+
+</section>	
+
+<!-------footer----->
+<section class="footer">
+	<h4>About us</h4>
+	<p>We plan truly memorable, exceptionally creative and uniquely beautiful weddings.<br>
+
+<p>At Blooms&co., we are privileged to turn our passion into a business. Creating momentous moments and transforming dreams into reality has always been our forte. And with the inception of our Wedding Planning Services and Wedding Events Consultation Company, we have extended our repertoire to include one of the most beautiful events in a couple’s life — their wedding.</p>
+
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-whatsapp"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i> by blooms&co.</p>
+
+</section>
+
+
+
+<script>
+	var navlinks=document.getElementById("navlinks");
+	function showmenu(){
+		navlinks.style.right="0";
+
+	}
+	function hidemenu(){
+		navlinks.style.right="-200px";
+	}
+	
+</script>
+
+
+
+</body>
+</html>
